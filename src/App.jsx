@@ -1,6 +1,6 @@
 import Header from './components/Header'
 import './App.scss'
-import { BrowserRouter as Router, Routes, Route, useParams,Navigate } from 'react-router-dom'
+import { HashRouter as Router, Routes, Route, useParams,Navigate } from 'react-router-dom'
 import { useState, useEffect } from 'react'
 import UserPf from './components/Users'
 import usersData from '../api/users.json'
