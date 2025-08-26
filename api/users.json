@@ -1,0 +1,55 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "john_doe",
+      "name": "John Doe",
+      "phone": "+1234567890",
+      "gmail": "john.doe@gmail.com",
+      "profilePic": "/image-avatar.png"
+    },
+    {
+      "id": 2,
+      "username": "jane_smith",
+      "name": "Jane Smith",
+      "phone": "+0987654321",
+      "gmail": "jane.smith@gmail.com",
+      "profilePic": "https://via.placeholder.com/50"
+    },
+    {
+      "id": 3,
+      "username": "mike_wilson",
+      "name": "Mike Wilson",
+      "phone": "+1122334455",
+      "gmail": "mike.wilson@gmail.com",
+      "profilePic": "https://via.placeholder.com/50"
+    },
+    {
+      "id": 4,
+      "username": "sarah_jones",
+      "name": "Sarah Jones",
+      "phone": "+5566778899",
+      "gmail": "sarah.jones@gmail.com",
+      "profilePic": "https://via.placeholder.com/50"
+
+    },
+    {
+      "id": 5,
+      "username": "alex_brown",
+      "name": "Alex Brown",
+      "phone": "+2233445566",
+      "gmail": "alex.brown@gmail.com",
+      "profilePic": "https://via.placeholder.com/50"
+
+    },
+    {
+      "id": 6,
+      "username": "emma_davis",
+      "name": "Emma Davis",
+      "phone": "+7788990011",
+      "gmail": "emma.davis@gmail.com",
+      "profilePic": "https://via.placeholder.com/50"
+
+    }
+  ]
+}
