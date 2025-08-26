@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
-import hamburger from "/icon-menu.svg";
-import cart from "/icon-cart.svg";
+import.meta.env.BASE_URL + "icon-menu.svg"
+import.meta.env.BASE_URL + "icon-cart.svg"
 import UserPf from "./Users"
 
 function Header({pName,currentUser}) {
