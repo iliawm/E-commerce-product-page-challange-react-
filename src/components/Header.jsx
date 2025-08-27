@@ -1,14 +1,14 @@
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
-import.meta.env.BASE_URL + "icon-menu.svg"
-import.meta.env.BASE_URL + "icon-cart.svg"
+const hamburger = import.meta.env.BASE_URL + "icon-menu.svg";
+const cart = import.meta.env.BASE_URL + "icon-cart.svg";
 import UserPf from "./Users"
+
 
 function Header({pName,currentUser}) {
   function toggleMenu() {
     const element = document.querySelector(".hamdrop");
     element.classList.toggle("open");
-    const hamburger = "./icon-menu.svg";
-     const cart = "./icon-cart.svg";
+
 
   }
   return (
