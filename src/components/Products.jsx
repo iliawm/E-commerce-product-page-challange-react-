@@ -81,7 +81,9 @@ function Products({ }) {
         
       </div>
       <div className="div-btn-add-to-cart">
-      <button className="add-to-cart-btn">
+      <button className="add-to-cart-btn" onClick={()=>{
+        alert(`Added ${quantcount} items to cart`);
+      }}>
           <img src="./icon-cart.svg" alt="" className="icon-cart.svg" />
         Add to cart
         </button>
