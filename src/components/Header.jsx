@@ -7,7 +7,9 @@ function Header({pName,currentUser}) {
   function toggleMenu() {
     const element = document.querySelector(".hamdrop");
     element.classList.toggle("open");
-    
+    const hamburger = "./icon-menu.svg";
+     const cart = "./icon-cart.svg";
+
   }
   return (
     <>
