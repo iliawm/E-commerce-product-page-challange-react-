@@ -3,7 +3,7 @@ import productsData from "../../api/products.json";
 
 function Products({ }) {
   const [imgid, setImgIndex] = useState(1);
-  const [imgPath, setImgPath] = useState(`/image-product-${imgid}.jpg`);
+  const [imgPath, setImgPath] = useState(`./image-product-${imgid}.jpg`);
   const [quantcount, setquant] = useState(0);
   const [len, setlen] = useState(0);
   useEffect(() => {
@@ -19,7 +19,7 @@ function Products({ }) {
       <button
         onClick={() => {
           const newId = imgid - 1;
-          const newPath = `/image-product-${newId}.jpg`;
+          const newPath = `./image-product-${newId}.jpg`;
           if (productsData.products[0].images.includes(newPath)) {
             setImgIndex(newId);
             setImgPath(newPath);
@@ -27,19 +27,19 @@ function Products({ }) {
         }}
         className="previous-product-btn"
       >
-        <img src="/icon-previous.svg" alt="" />
+        <img src="./icon-previous.svg" alt="" />
       </button>
       <button onClick={
         () => {
           const newId = imgid + 1;
-          const newPath = `/image-product-${newId}.jpg`;
+          const newPath = `./image-product-${newId}.jpg`;
           if (productsData.products[0].images.includes(newPath)) {
             setImgIndex(newId)
             setImgPath(newPath);
           }
         }
       } className="next-product-btn">
-        <img src="/icon-next.svg" alt="" />
+        <img src="./icon-next.svg" alt="" />
         
       </button>
       </div>
@@ -72,17 +72,17 @@ function Products({ }) {
       <div className="add-cart">
         <button onClick={()=>{
           quantcount>0?setquant(quantcount-1):setquant(quantcount)
-        }} className="minus-btn"><img src="/icon-minus.svg" alt="" className="minus"/></button>
+        }} className="minus-btn"><img src="./icon-minus.svg" alt="" className="minus"/></button>
         <div className="quantity">{quantcount}</div>
         <button onClick={()=>{
           quantcount>=0?setquant(quantcount+1):setquant(quantcount)
-        }} className="plus-btn"><img src="/icon-plus.svg" alt="" className="plus"/></button>
+        }} className="plus-btn"><img src="./icon-plus.svg" alt="" className="plus"/></button>
         </div>
         
       </div>
       <div className="div-btn-add-to-cart">
       <button className="add-to-cart-btn">
-          <img src="/icon-cart.svg" alt="" className="icon-cart.svg" />
+          <img src="./icon-cart.svg" alt="" className="icon-cart.svg" />
         Add to cart
         </button>
         </div>
