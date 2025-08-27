@@ -6,7 +6,7 @@
       "name": "John Doe",
       "phone": "+1234567890",
       "gmail": "john.doe@gmail.com",
-      "profilePic": "/image-avatar.png"
+      "profilePic": "./image-avatar.png"
     },
     {
       "id": 2,
