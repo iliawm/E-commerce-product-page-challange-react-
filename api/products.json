@@ -9,10 +9,10 @@
       "discount": 50,
       "quantity": 0,
       "images": [
-        "/image-product-1.jpg",
-        "/image-product-2.jpg",
-        "/image-product-3.jpg",
-        "/image-product-4.jpg"
+        "./image-product-1.jpg",
+        "./image-product-2.jpg",
+        "./image-product-3.jpg",
+        "./image-product-4.jpg"
       ]
     }
   ]
